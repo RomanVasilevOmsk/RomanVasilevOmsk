@@ -21,9 +21,10 @@
 </p>
 
 <p align="center">
-  <img alt="TypeScript, JavaScript, React, Next.js, Redux, Node.js, Express, HTML, CSS, Sass, Less, Styled Components, jQuery" src="https://skillicons.dev/icons?i=ts,js,react,nextjs,redux,nodejs,express,html,css,sass,less,styledcomponents,jquery&perline=13"><br>
-  <img alt="Vite, Webpack, Rollup, Babel, Gulp, pnpm, npm, Jest, Vitest, Cypress, Git, GitHub, GitLab" src="https://skillicons.dev/icons?i=vite,webpack,rollupjs,babel,gulp,pnpm,npm,jest,vitest,cypress,git,github,gitlab&perline=13"><br>
-  <img alt="GitHub Actions, Docker, Nginx, Figma, Postman, VS Code, WebStorm" src="https://skillicons.dev/icons?i=githubactions,docker,nginx,figma,postman,vscode,webstorm&perline=7">
+  <img alt="TypeScript, JavaScript, React, Next.js, Remix, Astro, Vue, Svelte, Redux, GraphQL, Node.js, Bun, Express" src="https://skillicons.dev/icons?i=ts,js,react,nextjs,remix,astro,vue,svelte,redux,graphql,nodejs,bun,express&perline=13"><br>
+  <img alt="HTML, CSS, Sass, Less, Tailwind, Styled Components, Material UI, Three.js, jQuery, Vite, Webpack, Rollup, Babel" src="https://skillicons.dev/icons?i=html,css,sass,less,tailwind,styledcomponents,materialui,threejs,jquery,vite,webpack,rollupjs,babel&perline=13"><br>
+  <img alt="Gulp, pnpm, npm, Jest, Vitest, Cypress, Git, GitHub, GitLab, GitHub Actions, Docker, Nginx, Vercel" src="https://skillicons.dev/icons?i=gulp,pnpm,npm,jest,vitest,cypress,git,github,gitlab,githubactions,docker,nginx,vercel&perline=13"><br>
+  <img alt="Netlify, Firebase, Supabase, Electron, Figma, Postman, VS Code, WebStorm" src="https://skillicons.dev/icons?i=netlify,firebase,supabase,electron,figma,postman,vscode,webstorm&perline=13">
   <img alt="Claude Code, Codex, Cursor, MCP" src="./assets/ai-stack.svg">
 </p>
 
@@ -37,21 +38,21 @@ uses to take a task from ticket to merge request.
 
 ### Stack
 
-|                     |                                                                                                               |
-| ------------------- | ------------------------------------------------------------------------------------------------------------- |
-| **Core**            | TypeScript · JavaScript · React 19 · Next.js (SSR/SSG) · Node.js                               |
-| **Mobile**          | React Native — cross-platform startup MVPs (iOS / Android)                                                    |
-| **State & data**    | Redux Toolkit / RTK Query · MobX · Zustand · Effector · Context API · Axios · REST · WebSockets               |
-| **UI & styling**    | Mantine · Recharts · CSS Modules · Less · Sass · Stylus · Styled Components · Emotion · BEM · micro-frontends |
-| **Forms & i18n**    | Mantine Form · React Hook Form · Formik · Yup · React IMask · i18next · Day.js · date-fns                     |
-| **Legacy & markup** | jQuery · Gulp · HTML5 / CSS3 · BEM landing pages · cross-browser layout                                       |
-| **Build**           | Vite · Webpack · Rollup · Babel · pnpm workspaces · Turborepo · ESLint · Prettier · Husky + commitlint        |
-| **Testing**         | Playwright · Cypress · Vitest · Jest · React Testing Library · Storybook 10 · pixel-diff snapshots            |
-| **Infra**           | Express (SSR, API proxy) · Docker · Nginx · GitLab CI · GitHub Actions · PWA · SEO                            |
-| **Integrations**    | Stripe · PayPal · 3DS · Booking.com / Airbnb channel APIs · ESIA (gov SSO) · OCR · geo services · CRM         |
-| **Observability**   | LogRocket · Yandex Metrica · Carrot Quest                                                                     |
-| **Quality**         | WCAG 2.1 · role-based permissions · 2FA (SMS + TOTP) · DOMPurify · Core Web Vitals                            |
-| **AI**              | Claude Code · Codex · Cursor · MCP · multi-agent pipelines · retrieval over docs                              |
+|                     |                                                                                                                          |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **Core**            | TypeScript · JavaScript · React 19 · Next.js (SSR/SSG) · Node.js                                                         |
+| **Mobile**          | React Native — cross-platform startup MVPs (iOS / Android)                                                               |
+| **State & data**    | Redux Toolkit / RTK Query · MobX · Zustand · Effector · Context API · Axios · REST · WebSockets                          |
+| **UI & styling**    | Mantine · Recharts · CSS Modules · Less · Sass · Stylus · Styled Components · Emotion · Tailwind · BEM · micro-frontends |
+| **Forms & i18n**    | Mantine Form · React Hook Form · Formik · Yup · React IMask · i18next · Day.js · date-fns                                |
+| **Legacy & markup** | jQuery · Gulp · HTML5 / CSS3 · BEM landing pages · cross-browser layout                                                  |
+| **Build**           | Vite · Webpack · Rollup · Babel · pnpm workspaces · Turborepo · ESLint · Prettier · Husky + commitlint                   |
+| **Testing**         | Playwright · Cypress · Vitest · Jest · React Testing Library · Storybook 10 · pixel-diff snapshots                       |
+| **Infra**           | Express (SSR, API proxy) · Docker · Nginx · GitLab CI · GitHub Actions · PWA · SEO                                       |
+| **Integrations**    | Stripe · PayPal · 3DS · Booking.com / Airbnb channel APIs · ESIA (gov SSO) · OCR · geo services · CRM                    |
+| **Observability**   | LogRocket · Yandex Metrica · Carrot Quest                                                                                |
+| **Quality**         | WCAG 2.1 · role-based permissions · 2FA (SMS + TOTP) · DOMPurify · Core Web Vitals                                       |
+| **AI**              | Claude Code · Codex · Cursor · MCP · multi-agent pipelines · retrieval over docs                                         |
 
 ### AI harness
 
@@ -93,21 +94,21 @@ Senior frontend-разработчик и фича-лид. Делаю корпо
 
 ### Стек
 
-|                        |                                                                                                              |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------ |
-| **Основа**             | TypeScript · JavaScript · React 19 · Next.js (SSR/SSG) · Node.js                              |
-| **Мобайл**             | React Native — кроссплатформенные MVP для стартапов (iOS / Android)                                          |
-| **Состояние и данные** | Redux Toolkit / RTK Query · MobX · Zustand · Effector · Context API · Axios · REST · WebSockets              |
-| **UI и стили**         | Mantine · Recharts · CSS Modules · Less · Sass · Stylus · Styled Components · Emotion · БЭМ · микрофронтенды |
-| **Формы и i18n**       | Mantine Form · React Hook Form · Formik · Yup · React IMask · i18next · Day.js · date-fns                    |
-| **Вёрстка и легаси**   | jQuery · Gulp · HTML5 / CSS3 · лендинги на БЭМ · кросс-браузерная вёрстка                                    |
-| **Сборка**             | Vite · Webpack · Rollup · Babel · pnpm workspaces · Turborepo · ESLint · Prettier · Husky + commitlint       |
-| **Тесты**              | Playwright · Cypress · Vitest · Jest · React Testing Library · Storybook 10 · попиксельные снапшоты          |
-| **Инфраструктура**     | Express (SSR, API-прокси) · Docker · Nginx · GitLab CI · GitHub Actions · PWA · SEO                          |
-| **Интеграции**         | Stripe · PayPal · 3DS · API каналов Booking.com / Airbnb · ЕСИА · OCR · геосервисы · CRM                     |
-| **Наблюдаемость**      | LogRocket · Яндекс.Метрика · Carrot Quest                                                                    |
-| **Качество**           | WCAG 2.1 · ролевая модель прав · 2FA (SMS + TOTP) · DOMPurify · Core Web Vitals                              |
-| **AI**                 | Claude Code · Codex · Cursor · MCP · мультиагентные пайплайны · поиск по документации                        |
+|                        |                                                                                                                         |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| **Основа**             | TypeScript · JavaScript · React 19 · Next.js (SSR/SSG) · Node.js                                                        |
+| **Мобайл**             | React Native — кроссплатформенные MVP для стартапов (iOS / Android)                                                     |
+| **Состояние и данные** | Redux Toolkit / RTK Query · MobX · Zustand · Effector · Context API · Axios · REST · WebSockets                         |
+| **UI и стили**         | Mantine · Recharts · CSS Modules · Less · Sass · Stylus · Styled Components · Emotion · Tailwind · БЭМ · микрофронтенды |
+| **Формы и i18n**       | Mantine Form · React Hook Form · Formik · Yup · React IMask · i18next · Day.js · date-fns                               |
+| **Вёрстка и легаси**   | jQuery · Gulp · HTML5 / CSS3 · лендинги на БЭМ · кросс-браузерная вёрстка                                               |
+| **Сборка**             | Vite · Webpack · Rollup · Babel · pnpm workspaces · Turborepo · ESLint · Prettier · Husky + commitlint                  |
+| **Тесты**              | Playwright · Cypress · Vitest · Jest · React Testing Library · Storybook 10 · попиксельные снапшоты                     |
+| **Инфраструктура**     | Express (SSR, API-прокси) · Docker · Nginx · GitLab CI · GitHub Actions · PWA · SEO                                     |
+| **Интеграции**         | Stripe · PayPal · 3DS · API каналов Booking.com / Airbnb · ЕСИА · OCR · геосервисы · CRM                                |
+| **Наблюдаемость**      | LogRocket · Яндекс.Метрика · Carrot Quest                                                                               |
+| **Качество**           | WCAG 2.1 · ролевая модель прав · 2FA (SMS + TOTP) · DOMPurify · Core Web Vitals                                         |
+| **AI**                 | Claude Code · Codex · Cursor · MCP · мультиагентные пайплайны · поиск по документации                                   |
 
 ### AI-харнесс
 
