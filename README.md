@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <b>Senior Frontend Engineer · React / TypeScript · AI-assisted development</b><br>
+  <b>Senior Frontend Engineer · Feature Lead · AI-assisted development</b><br>
   10+ years · travel-tech · fintech · gov-tech · startup MVPs
 </p>
 
@@ -14,9 +14,7 @@
   <samp>
     <a href="https://www.linkedin.com/in/roman-vasilev-1742191b8">linkedin</a> .
     <a href="https://t.me/don_macron">telegram</a> .
-    <a href="mailto:zvezdarusy@gmail.com">email</a> .
-    <a href="#english">english</a> .
-    <a href="#русский">русский</a>
+    <a href="mailto:zvezdarusy@gmail.com">email</a>
   </samp>
 </p>
 
@@ -29,8 +27,6 @@
 </p>
 
 ---
-
-## English
 
 Senior frontend engineer and feature lead. I build a corporate travel platform (flights, rail,
 hotels) as a React 19 SPA in a pnpm + Turborepo monorepo, and the **Claude Code harness** the team
@@ -84,58 +80,3 @@ Architecture docs ───────────mirror─▶ service map · r
 | 2018 – 2021 | **Purrweb** · MVP studio        | Frontend. Shipped startup MVPs from scratch — SPA, isomorphic Next.js, React Native; shared design system for 3+ projects, LCP −40%, CI/CD                   |
 | 2017        | **AffContext**                  | Frontend. Interfaces, landing pages, CRM integration                                                                                                         |
 
----
-
-## Русский
-
-Senior frontend-разработчик и фича-лид. Делаю корпоративную платформу деловых поездок (авиа, ЖД,
-отели) — SPA на React 19 в pnpm + Turborepo-монорепо — и **харнесс на Claude Code**, через который
-команда ведёт задачу от тикета до мерж-реквеста.
-
-### Стек
-
-|                        |                                                                                                                         |
-| ---------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| **Основа**             | TypeScript · JavaScript · React 19 · Next.js (SSR/SSG) · Node.js                                                        |
-| **Мобайл**             | React Native — кроссплатформенные MVP для стартапов (iOS / Android)                                                     |
-| **Состояние и данные** | Redux Toolkit / RTK Query · MobX · Zustand · Effector · Context API · Axios · REST · WebSockets                         |
-| **UI и стили**         | Mantine · Recharts · CSS Modules · Less · Sass · Stylus · Styled Components · Emotion · Tailwind · БЭМ · микрофронтенды |
-| **Формы и i18n**       | Mantine Form · React Hook Form · Formik · Yup · React IMask · i18next · Day.js · date-fns                               |
-| **Вёрстка и легаси**   | jQuery · Gulp · HTML5 / CSS3 · лендинги на БЭМ · кросс-браузерная вёрстка                                               |
-| **Сборка**             | Vite · Webpack · Rollup · Babel · pnpm workspaces · Turborepo · ESLint · Prettier · Husky + commitlint                  |
-| **Тесты**              | Playwright · Cypress · Vitest · Jest · React Testing Library · Storybook 10 · попиксельные снапшоты                     |
-| **Инфраструктура**     | Express (SSR, API-прокси) · Docker · Nginx · GitLab CI · GitHub Actions · PWA · SEO                                     |
-| **Интеграции**         | Stripe · PayPal · 3DS · API каналов Booking.com / Airbnb · ЕСИА · OCR · геосервисы · CRM                                |
-| **Наблюдаемость**      | LogRocket · Яндекс.Метрика · Carrot Quest                                                                               |
-| **Качество**           | WCAG 2.1 · ролевая модель прав · 2FA (SMS + TOTP) · DOMPurify · Core Web Vitals                                         |
-| **AI**                 | Claude Code · Codex · Cursor · MCP · мультиагентные пайплайны · поиск по документации                                   |
-
-### AI-харнесс
-
-|                 |                                                                                                                                     |
-| --------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| **Агенты**      | `arch` → `coder` → `reviewer` (тикет → план → код → ревью) + `debug`, `e2e`; команда `/dev` гоняет цепочку                          |
-| **Скиллы (34)** | Конвенции кодовой базы как исполняемые инструкции: RTK Query, Redux, DTO, формы, ошибки, i18n, роуты, права, оплаты, Storybook, e2e |
-| **Ревью**       | Один свод правил, два входа: локальный self-check и ревью GitLab MR с превью перед публикацией                                      |
-| **Хуки и MCP**  | Тип-чек после правок, переходы в Jira, защита коммитов · Jira, Confluence, GitLab, Figma, Playwright, LogRocket                     |
-| **Обвязка**     | Проверка окружения одной командой · интерсептор записи/реплея API · визуальные пробы · прокси-расширение для Chrome                 |
-
-**Поиск по документации** — без векторной базы: агенты ходят по графу знаний на Markdown.
-
-```
-Confluence (600+ спек) ──sync─▶ Obsidian-vault · YAML frontmatter · доменная таксономия · граф [[wikilinks]]
-Архитектурные доки ────mirror─▶ карта сервисов · роутинг · HTTP и очереди
-200+ бэкенд-репо ───inventory─▶ сущность → сервис → контракт shared-types
-                                ▼
-        arch-агент: домен → поиск → чтение → ссылки → план с источниками
-```
-
-### Опыт
-
-|               |                                |                                                                                                                                                                         |
-| ------------- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2024 → сейчас | **Аэро Клуб** · деловой туризм | Senior Frontend / R&D. Переезд в монорепо, оформление и оплата заказов (овердрафт, депозит, карта), тревел-политики, единая авторизация, AI-харнесс                     |
-| 2021 – 2024   | **СофтМедиаЛаб**               | Senior Frontend. Ведущий фронтенд платёжного сервиса: дашборды на WebSockets, LCP −35%, 5 платёжных провайдеров. Порталы энергосбыта и соцкарты: WCAG 2.1, 2FA, 3 языка |
-| 2021          | **Channex.io**                 | Frontend. SaaS-агрегатор бронирований: календари, дашборды, интеграции с Booking.com и Airbnb                                                                           |
-| 2018 – 2021   | **Purrweb** · студия MVP       | Frontend. MVP для стартапов с нуля — SPA, изоморфный Next.js, React Native; общая дизайн-система для 3+ проектов, LCP −40%, CI/CD                                       |
-| 2017          | **AffContext**                 | Frontend. Интерфейсы, лендинги, интеграция с CRM                                                                                                                        |

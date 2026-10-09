@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Roman Vasilev — Senior Frontend Engineer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Roman Vasilev — Senior Frontend Engineer, Feature Lead">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#f6f8fa"/><stop offset="1" stop-color="#e8eefc"/>
@@ -13,9 +13,9 @@
   <rect width="1200" height="260" rx="16" fill="url(#bg)"/>
   <rect width="1200" height="260" rx="16" fill="url(#grid)"/>
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" text-anchor="middle">
-    <text x="600" y="96" font-size="18" fill="#0969da" opacity="0.8">&lt;Frontend role="senior" stack="react · typescript" ai /&gt;</text>
+    <text x="600" y="96" font-size="18" fill="#0969da" opacity="0.8">&lt;FrontendLead stack="typescript · react · next.js · node.js" ai /&gt;</text>
     <text x="600" y="152" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#1f2328">Roman Vasilev</text>
-    <text x="600" y="194" font-size="18" fill="#59636e">React 19 · TypeScript · RTK Query · Playwright · Claude Code</text>
+    <text x="600" y="194" font-size="18" fill="#59636e">Architecture · Design Systems · Performance · Testing · CI/CD · AI agents</text>
   </g>
   <rect x="440" y="214" width="320" height="4" rx="2" fill="url(#ac)"/>
 </svg>
