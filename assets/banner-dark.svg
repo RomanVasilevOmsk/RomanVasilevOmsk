@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Roman Vasilev — Senior Frontend Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b33"/>
+    </linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#61dafb"/><stop offset="0.5" stop-color="#3178c6"/><stop offset="1" stop-color="#d97757"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff0a" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="260" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="260" rx="16" fill="url(#grid)"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" text-anchor="middle">
+    <text x="600" y="96" font-size="18" fill="#79c0ff" opacity="0.8">&lt;Frontend role="senior" stack="react · typescript" ai /&gt;</text>
+    <text x="600" y="152" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#f0f6fc">Roman Vasilev</text>
+    <text x="600" y="194" font-size="18" fill="#8b949e">React 19 · TypeScript · RTK Query · Playwright · Claude Code</text>
+  </g>
+  <rect x="440" y="214" width="320" height="4" rx="2" fill="url(#ac)"/>
+</svg>
