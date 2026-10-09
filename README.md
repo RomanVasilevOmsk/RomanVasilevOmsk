@@ -7,7 +7,7 @@
 
 <p align="center">
   <b>Senior Frontend Engineer · React / TypeScript · AI-assisted development</b><br>
-  10+ years building product frontends — travel-tech, fintech, gov-tech
+  10+ years · travel-tech · fintech · gov-tech · startup MVPs
 </p>
 
 <p align="center">
@@ -20,133 +20,113 @@
   </samp>
 </p>
 
+<p align="center">
+  <img alt="TypeScript, JavaScript, React, Next.js, Redux, Node.js, Express, HTML, CSS, Sass, Less, Styled Components, Tailwind" src="https://skillicons.dev/icons?i=ts,js,react,nextjs,redux,nodejs,express,html,css,sass,less,styledcomponents,tailwind&perline=13"><br>
+  <img alt="Vite, Webpack, Babel, pnpm, npm, Jest, Vitest, Git, GitLab, GitHub Actions, Docker, Nginx, Figma, Postman" src="https://skillicons.dev/icons?i=vite,webpack,babel,pnpm,npm,jest,vitest,git,gitlab,githubactions,docker,nginx,figma,postman&perline=14">
+</p>
+
 ---
 
 ## English
 
-### About
-
-> Senior frontend engineer and feature lead. Right now I build a corporate travel platform —
-> flights, rail and hotels for business clients — as a React 19 SPA in a pnpm + Turborepo
-> monorepo. Over the past year I've also built an **AI harness on Claude Code** around that
-> codebase: agents, skills, hooks and a local knowledge base the team uses to take a task from
-> ticket to merge request.
+Senior frontend engineer and feature lead. I build a corporate travel platform (flights, rail,
+hotels) as a React 19 SPA in a pnpm + Turborepo monorepo, and the **Claude Code harness** the team
+uses to take a task from ticket to merge request.
 
 ### Stack
 
-<p>
-  <img alt="TypeScript, React, Redux, Vite, Node.js, Express, pnpm, Less, Vitest, Jest, Webpack, Next.js, Git, GitLab, Docker, Figma" src="https://skillicons.dev/icons?i=ts,react,redux,vite,nodejs,express,pnpm,less,vitest,jest,webpack,nextjs,git,gitlab,docker,figma&perline=16">
-</p>
+|                   |                                                                                                                          |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **Core**          | TypeScript · JavaScript · React 19 · React Native · Next.js (SSR/SSG) · Node.js                                          |
+| **State & data**  | Redux Toolkit / RTK Query · MobX · Zustand · Effector · Context API · Axios · REST · WebSockets                          |
+| **UI & styling**  | Mantine · Recharts · CSS Modules · Less · Sass · Stylus · Styled Components · Emotion · Tailwind · BEM · micro-frontends |
+| **Forms & i18n**  | Mantine Form · React Hook Form · Formik · Yup · React IMask · i18next · Day.js · date-fns                                |
+| **Build**         | Vite · Webpack · Rollup · Babel · pnpm workspaces · Turborepo · ESLint · Prettier · Husky + commitlint                   |
+| **Testing**       | Playwright · Cypress · Vitest · Jest · React Testing Library · Storybook 10 · pixel-diff snapshots                       |
+| **Infra**         | Express (SSR, API proxy) · Docker · Nginx · GitLab CI · GitHub Actions · PWA · SEO                                       |
+| **Observability** | LogRocket · Yandex Metrica · Carrot Quest                                                                                |
+| **Quality**       | WCAG 2.1 · role-based permissions · 2FA (SMS + TOTP) · DOMPurify · Core Web Vitals                                       |
+| **AI**            | Claude Code · Codex · Cursor · MCP · multi-agent pipelines · retrieval over docs                                         |
 
-| Area              | Tools                                                                                                  |
-| ----------------- | ------------------------------------------------------------------------------------------------------ |
-| **Core**          | TypeScript · React 19 · Redux Toolkit / RTK Query · React Router · Mantine · i18next · Yup             |
-| **Build**         | Vite · Webpack · pnpm workspaces · Turborepo · ESLint · Prettier · Husky + commitlint                  |
-| **Quality**       | Playwright e2e (payments, 3DS) · Vitest · Jest / RTL · Storybook (340+ stories) · pixel-diff snapshots |
-| **Server**        | Node.js · Express (static + API proxy) · WebSockets                                                    |
-| **Observability** | LogRocket — weekly production-error triage turned into tickets                                         |
-| **AI**            | Claude Code · Codex · Cursor · MCP · multi-agent pipelines · retrieval over docs                       |
+### AI harness
 
-### AI harness for a frontend team
+|                 |                                                                                                                                              |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Agents**      | `arch` → `coder` → `reviewer` (ticket → plan → code → review) + `debug`, `e2e`; one `/dev` command runs the chain                            |
+| **Skills (34)** | Codebase conventions as executable instructions: RTK Query, Redux, DTOs, forms, errors, i18n, routing, permissions, payments, Storybook, e2e |
+| **Review**      | One rulebook, two entry points: local self-check and GitLab MR review with preview before posting                                            |
+| **Hooks & MCP** | Type-check after edits, Jira transitions, commit guard · Jira, Confluence, GitLab, Figma, Playwright, LogRocket                              |
+| **Tooling**     | One-command setup check · API record/replay interceptor · visual probes · proxy Chrome extension                                             |
 
-Not "ask a chatbot, paste the code" — engineering scaffolding that lives in the repo and works the
-same for everyone on the team.
-
-| Layer            | What's inside                                                                                                                                                                 |
-| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Agents**       | `arch` → `coder` → `reviewer` chain (ticket → plan → implementation → review), plus `debug`, `debug-fix`, `e2e`. One `/dev` command runs the whole chain                      |
-| **Skills (34)**  | The codebase's conventions as executable instructions: RTK Query, Redux slices, DTOs and parsers, forms, error handling, i18n, routing, permissions, payments, Storybook, e2e |
-| **Code review**  | One rulebook (severity, finding anatomy, verify-before-confirming) with two entry points: local self-check and GitLab MR review with a preview before anything is posted      |
-| **Hooks**        | Type-check after edits, ticket detection in prompts, automatic Jira transitions, commit guard                                                                                 |
-| **MCP**          | Jira / Confluence, GitLab, Figma, Playwright, LogRocket, Context7, Mantine docs                                                                                               |
-| **Setup**        | One command checks the environment (tools, tokens, MCP servers, stale config) and pulls the knowledge bases                                                                   |
-| **Test tooling** | HTTP interceptor to record/replay API traffic and run offline · visual probes (pixel-diff of Storybook and pages) · Chrome extension for routing to test stands               |
-
-#### Retrieval over documentation
-
-Agents don't guess API contracts — they read them. No vector DB: an agent-navigated Markdown
-knowledge graph, which turned out more precise for spec lookup than embeddings.
+**Retrieval over docs** — no vector DB: agents navigate a Markdown knowledge graph.
 
 ```
-Confluence (600+ spec pages)  ──sync──▶  Obsidian vault: Markdown + YAML frontmatter
-                                           │  domain taxonomy: avia / hotel / rail / order / auth / api …
-                                           │  ingest pass: [[wikilink]] graph between pages (LLM-wiki pattern)
-                                           ▼
-Architecture docs  ─────────mirror───▶  service map, routing, HTTP / message-queue maps
-200+ backend repos ───────inventory──▶  "entity → service → shared-types contract" routing
-                                           ▼
-          arch agent: pick domain → search → read → follow links → plan with cited sources
+Confluence (600+ spec pages) ─sync─▶ Obsidian vault · YAML frontmatter · domain taxonomy · [[wikilink]] graph
+Architecture docs ───────────mirror─▶ service map · routing · HTTP / queue maps
+200+ backend repos ───────inventory─▶ entity → service → shared-types contract
+                                      ▼
+          arch agent: domain → search → read → follow links → plan with cited sources
 ```
-
-Incremental sync, a map compiled from frontmatter, vault linting, `bats` tests for the scripts.
 
 ### Experience
 
-| When        | Where                                                       | What                                                                                                                                                                                                                                                 |
-| ----------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2024 → now  | **Aero Club** — business travel (gate.ru, anywayanyday.com) | Senior Frontend / R&D. Moved the app to a pnpm + Turborepo monorepo; booking and payment flows (overdraft, deposit, card), travel policies, add-on services, unified auth migration, AI harness                                                      |
-| 2021 – 2024 | **SoftMediaLab**                                            | Senior Frontend. Lead frontend on a payments platform (cushion.ai): real-time WebSocket dashboards, LCP −35%, 5 payment providers. Frontend architecture for a utility customer portal and a regional social-card service (WCAG 2.1, 2FA, 3 locales) |
-| 2021        | **Channex.io**                                              | Frontend. SaaS channel manager for apartment owners: calendars, booking lists, dashboards, Booking.com / Airbnb integrations                                                                                                                         |
+|             |                                 |                                                                                                                                                              |
+| ----------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 2024 → now  | **Aero Club** · business travel | Senior Frontend / R&D. Monorepo migration, booking & payments (overdraft, deposit, card), travel policies, unified auth, AI harness                          |
+| 2021 – 2024 | **SoftMediaLab**                | Senior Frontend. Lead FE on a payments platform: WebSocket dashboards, LCP −35%, 5 payment providers. Utility and gov-tech portals: WCAG 2.1, 2FA, 3 locales |
+| 2021        | **Channex.io**                  | Frontend. SaaS channel manager: calendars, dashboards, Booking.com / Airbnb integrations                                                                     |
+| 2018 – 2021 | **Purrweb** · MVP studio        | Frontend. Shipped startup MVPs from scratch — SPA, isomorphic Next.js, React Native; shared design system for 3+ projects, LCP −40%, CI/CD                   |
+| 2017        | **AffContext**                  | Frontend. Interfaces, landing pages, CRM integration                                                                                                         |
 
 ---
 
 ## Русский
 
-### Обо мне
-
-> Senior frontend-разработчик и фича-лид. Сейчас делаю корпоративную платформу деловых
-> поездок — авиа, ЖД и отели для бизнес-клиентов — SPA на React 19 в pnpm + Turborepo-монорепо.
-> Последний год строю вокруг этой кодовой базы **AI-харнесс на Claude Code**: агенты, скиллы,
-> хуки и локальную базу знаний, через которые команда ведёт задачу от тикета до мерж-реквеста.
+Senior frontend-разработчик и фича-лид. Делаю корпоративную платформу деловых поездок (авиа, ЖД,
+отели) — SPA на React 19 в pnpm + Turborepo-монорепо — и **харнесс на Claude Code**, через который
+команда ведёт задачу от тикета до мерж-реквеста.
 
 ### Стек
 
-| Область           | Инструменты                                                                                          |
-| ----------------- | ---------------------------------------------------------------------------------------------------- |
-| **Основа**        | TypeScript · React 19 · Redux Toolkit / RTK Query · React Router · Mantine · i18next · Yup           |
-| **Сборка**        | Vite · Webpack · pnpm workspaces · Turborepo · ESLint · Prettier · Husky + commitlint                |
-| **Качество**      | Playwright e2e (оплаты, 3DS) · Vitest · Jest / RTL · Storybook (340+ стори) · попиксельное сравнение |
-| **Сервер**        | Node.js · Express (статика + API-прокси) · WebSockets                                                |
-| **Наблюдаемость** | LogRocket — еженедельный разбор прод-ошибок в задачи                                                 |
-| **AI**            | Claude Code · Codex · Cursor · MCP · мультиагентные пайплайны · поиск по документации                |
+|                        |                                                                                                                         |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| **Основа**             | TypeScript · JavaScript · React 19 · React Native · Next.js (SSR/SSG) · Node.js                                         |
+| **Состояние и данные** | Redux Toolkit / RTK Query · MobX · Zustand · Effector · Context API · Axios · REST · WebSockets                         |
+| **UI и стили**         | Mantine · Recharts · CSS Modules · Less · Sass · Stylus · Styled Components · Emotion · Tailwind · БЭМ · микрофронтенды |
+| **Формы и i18n**       | Mantine Form · React Hook Form · Formik · Yup · React IMask · i18next · Day.js · date-fns                               |
+| **Сборка**             | Vite · Webpack · Rollup · Babel · pnpm workspaces · Turborepo · ESLint · Prettier · Husky + commitlint                  |
+| **Тесты**              | Playwright · Cypress · Vitest · Jest · React Testing Library · Storybook 10 · попиксельные снапшоты                     |
+| **Инфраструктура**     | Express (SSR, API-прокси) · Docker · Nginx · GitLab CI · GitHub Actions · PWA · SEO                                     |
+| **Наблюдаемость**      | LogRocket · Яндекс.Метрика · Carrot Quest                                                                               |
+| **Качество**           | WCAG 2.1 · ролевая модель прав · 2FA (SMS + TOTP) · DOMPurify · Core Web Vitals                                         |
+| **AI**                 | Claude Code · Codex · Cursor · MCP · мультиагентные пайплайны · поиск по документации                                   |
 
-### AI-харнесс для фронтенд-команды
+### AI-харнесс
 
-Не «спросил чат — вставил код», а инженерная обвязка, которая живёт в репозитории и одинаково
-работает у всей команды.
+|                 |                                                                                                                                     |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| **Агенты**      | `arch` → `coder` → `reviewer` (тикет → план → код → ревью) + `debug`, `e2e`; команда `/dev` гоняет цепочку                          |
+| **Скиллы (34)** | Конвенции кодовой базы как исполняемые инструкции: RTK Query, Redux, DTO, формы, ошибки, i18n, роуты, права, оплаты, Storybook, e2e |
+| **Ревью**       | Один свод правил, два входа: локальный self-check и ревью GitLab MR с превью перед публикацией                                      |
+| **Хуки и MCP**  | Тип-чек после правок, переходы в Jira, защита коммитов · Jira, Confluence, GitLab, Figma, Playwright, LogRocket                     |
+| **Обвязка**     | Проверка окружения одной командой · интерсептор записи/реплея API · визуальные пробы · прокси-расширение для Chrome                 |
 
-| Слой                 | Что внутри                                                                                                                                                      |
-| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Агенты**           | Цепочка `arch` → `coder` → `reviewer` (тикет → план → реализация → ревью), плюс `debug`, `debug-fix`, `e2e`. Команда `/dev` гоняет цепочку целиком              |
-| **Скиллы (34)**      | Конвенции кодовой базы как исполняемые инструкции: RTK Query, Redux-слайсы, DTO и парсеры, формы, обработка ошибок, i18n, роуты, права, оплаты, Storybook, e2e  |
-| **Ревью**            | Единый свод правил (severity, анатомия замечания, verify-before-confirming) и два входа: локальный self-check и ревью GitLab MR с превью перед публикацией      |
-| **Хуки**             | Тип-чек после правок, распознавание тикета в промпте, автопереходы задач в Jira, защита коммитов                                                                |
-| **MCP**              | Jira / Confluence, GitLab, Figma, Playwright, LogRocket, Context7, документация Mantine                                                                         |
-| **Настройка**        | Одна команда проверяет окружение (инструменты, токены, MCP, отставание конфигов) и подтягивает базы знаний                                                      |
-| **Тестовая обвязка** | HTTP-интерсептор для записи и реплея API и работы оффлайн · визуальные пробы (попиксельно Storybook и страницы) · Chrome-расширение для маршрутизации на стенды |
-
-#### Поиск по документации
-
-Агенты не угадывают контракты API, а читают их. Без векторной базы: граф знаний на Markdown, по
-которому ходит агент, — для поиска по спецификациям это оказалось точнее эмбеддингов.
+**Поиск по документации** — без векторной базы: агенты ходят по графу знаний на Markdown.
 
 ```
-Confluence (600+ страниц спек)  ──sync──▶  Obsidian-vault: Markdown + YAML frontmatter
-                                             │  доменная таксономия: avia / hotel / rail / order / auth / api …
-                                             │  ingest: граф [[wikilinks]] между страницами (паттерн LLM-wiki)
-                                             ▼
-Архитектурная документация  ───mirror───▶  карта сервисов, роутинг, HTTP- и очереди
-200+ бэкенд-репозиториев   ──inventory──▶  маршрут «сущность → сервис → контракт shared-types»
-                                             ▼
-           arch-агент: домен → поиск → чтение → проход по ссылкам → план со ссылками на источники
+Confluence (600+ спек) ──sync─▶ Obsidian-vault · YAML frontmatter · доменная таксономия · граф [[wikilinks]]
+Архитектурные доки ────mirror─▶ карта сервисов · роутинг · HTTP и очереди
+200+ бэкенд-репо ───inventory─▶ сущность → сервис → контракт shared-types
+                                ▼
+        arch-агент: домен → поиск → чтение → ссылки → план с источниками
 ```
-
-Инкрементальная синхронизация, карта из frontmatter, линтер базы, `bats`-тесты на скрипты.
 
 ### Опыт
 
-| Когда         | Где                                                        | Что                                                                                                                                                                                                                                                    |
-| ------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 2024 → сейчас | **Аэро Клуб** — деловой туризм (gate.ru, anywayanyday.com) | Senior Frontend / R&D. Перевёл проект в pnpm + Turborepo-монорепо; оформление и оплата заказов (овердрафт, депозит, карта), тревел-политики, докупка услуг, миграция на единую авторизацию, AI-харнесс                                                 |
-| 2021 – 2024   | **СофтМедиаЛаб**                                           | Senior Frontend. Ведущий фронтенд платёжного сервиса (cushion.ai): real-time дашборды на WebSockets, LCP −35%, 5 платёжных провайдеров. Фронтенд-архитектура личного кабинета энергосбыта и сервиса «Единая социальная карта» (WCAG 2.1, 2FA, 3 языка) |
-| 2021          | **Channex.io**                                             | Frontend. SaaS-агрегатор бронирований для владельцев апартаментов: календари, списки броней, дашборды, интеграции с Booking.com и Airbnb                                                                                                               |
+|               |                                |                                                                                                                                                                         |
+| ------------- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2024 → сейчас | **Аэро Клуб** · деловой туризм | Senior Frontend / R&D. Переезд в монорепо, оформление и оплата заказов (овердрафт, депозит, карта), тревел-политики, единая авторизация, AI-харнесс                     |
+| 2021 – 2024   | **СофтМедиаЛаб**               | Senior Frontend. Ведущий фронтенд платёжного сервиса: дашборды на WebSockets, LCP −35%, 5 платёжных провайдеров. Порталы энергосбыта и соцкарты: WCAG 2.1, 2FA, 3 языка |
+| 2021          | **Channex.io**                 | Frontend. SaaS-агрегатор бронирований: календари, дашборды, интеграции с Booking.com и Airbnb                                                                           |
+| 2018 – 2021   | **Purrweb** · студия MVP       | Frontend. MVP для стартапов с нуля — SPA, изоморфный Next.js, React Native; общая дизайн-система для 3+ проектов, LCP −40%, CI/CD                                       |
+| 2017          | **AffContext**                 | Frontend. Интерфейсы, лендинги, интеграция с CRM                                                                                                                        |
